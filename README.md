@@ -1,21 +1,21 @@
-#Symfony Training
+# Symfony Training
 
 ## Conception
 
 
-###Law of demeter
+### Law of demeter
 un objet doit éviter d'invoquer des méthodes d'un membre objet retourné par une autre méthode.
 
-###value object
+### Value object
 In computer science, a value object is a small object that represents a simple entity whose equality is not based on identity: i.e. two value objects are equal when they have the same value,
 
 
-###Idenmpotent
+### Idempotent
 signifie qu'une opération a le même effet qu'on l'applique une ou plusieurs fois.
 
 YAGNI = acronyme anglais de you ain't gonna need it,
 
-###Gang of four
+### Gang of four
 Erich Gamma, Richard Helm,
 Ralph Johnson et John Vlissides
 
