@@ -21,79 +21,79 @@ Ralph Johnson et John Vlissides
 
 ### SOLID
 ![alt text](https://cdn-images-1.medium.com/max/1200/1*yO6YGExWLJl5VOUL61xXvQ.jpeg "SOLID")
-Responsabilité unique (single responsibility principle)
+#### Single responsibility principle
 une classe, une fonction ou une méthode doit avoir une et une seule responsabilité
-Ouvert/fermé (open/closed principle)
+#### Open/closed principle
 une classe doit être ouverte à l'extension, mais fermée à la modification
-Substitution de Liskov (Liskov substitution principle)
+#### Substitution de Liskov (Liskov substitution principle)
 une instance de type T doit pouvoir être remplacée par une instance de type G, tel que G sous-type de T, sans que cela ne modifie la cohérence du programme
-Ségrégation des interfaces (interface segregation principle)
+#### Interface segregation principle
 préférer plusieurs interfaces spécifiques pour chaque client plutôt qu'une seule interface générale
-Inversion des dépendances (dependency inversion principle)
+#### Dependency inversion principle
 il faut dépendre des abstractions, pas des implémentations
 
 ## Design Pattern
-###Creational Patterns
-####Abstract factory
+### Creational Patterns
+#### Abstract factory
 Ce DP permet de créer des instances pour des groupes, des familles de classes différents sans que le code qui les utilise n’ait à se soucier de ces groupes ou familles.
-####Builder
+#### Builder
 Ce DP décrit comment séparer la construction d’un objet complexe de sa représentation.
-####Factory method
+#### Factory method
 Cet DP ressemble à l’abstract factory en permettant à une méthode de créer des instances dérivées d’une classe mère.
-####Prototype
+#### Prototype
 Le prototype est une instance correctement initialisée servant de modèle à la création d’un clone. Cet DP permet par exemple d’implémenter une collection d’objets décrivant des formes géométriques.
-####Singleton
+#### Singleton
 Il permet de s’assurer qu’une seule instance d’une classe ne peut exister à un moment donné et fournit un point d’accès vers cette instance.
-####Adapter
+#### Adapter
 L’adapter (adaptateur) est un procédé permettant d’habiller en quelque sorte une classe en la faisant ressembler, du point de vue de son interface, à une autre.
-####Bridge
+#### Bridge
 Ce DP créé un pont entre une classe et l’implémentation de tout ou partie de son code.
-####Composite
+#### Composite
 Le composite est un DP permettant de créer des structures arborescentes d’objets ayant une relation tout/partie tout en autorisant les clients de traiter les objets individuels et les compositions de façon uniforme.
-####Decorator
+#### Decorator
 Avec ce pattern on dispose d’un moyen efficace pour accrocher de nouvelles fonctions à un objet dynamiquement lors de l’exécution.
-####Façade
+#### Façade
 Il s’agit ici de proposer une .. façade masquant la complexité de tout un système.
-####Flyweight
+#### Flyweight
 Cette DP autorise le partage de très nombreux objets de petite granularité de façon efficace.
-####Proxy
+#### Proxy
 ce DP définit comment un objet permet d’en contrôler un autre. On l’utilise très fréquemment pour manipuler localement la représentation d’un objet distant
-###Behavioral patterns
-####Chain of responsability
+### Behavioral patterns
+#### Chain of responsability
 Ce DP définit une structure permettant de découpler un objet émettant des requêtes des objets chargés de les traiter.
-####Command
+#### Command
 Lorsqu’un système doit gérer de nombreuses commandes qui peuvent être mises en attente et être éventuellement annulée il est intéressant de transformer chaque commande en un objet placé dans une liste.
-####Interpreter
+#### Interpreter
 Ce DP propose une structure de classes permettant, à partir d’un langage et d’une représentation de sa grammaire, de pouvoir interpréter des phrases écrites dans ce langage.
-####Iterator
+#### Iterator
 Ce DP propose un moyen d’accéder à tous les objets d’une liste séquentiellement sans avoir besoin d’exposer la structure interne qui maintient cette liste.
-####Mediator
+#### Mediator
 Cet DP définit le fonctionnement d’un objet qui gère les interactions entre d’autres objets. C’est un médiateur.
-####Memento
+#### Memento
 Ce DP met en place un mécanisme permettant de capturer l’état interne d’un objet pour le stocker et restaurer ultérieurement l’objet dans le même état.
-####Observer
+#### Observer
 Lorsque plusieurs objets doivent être averti d’une notification il faut trouver un moyen pour distribuer le message.
-####State
+#### State
 Ce DP décrit comment un objet peut modifier son comportement quand son état change.
-####Strategy
+#### Strategy
 Pourvoir modifier un algorithme de façon transparente peut être très utile.
-####Template method
+#### Template method
 Ce DP définit comment mettre en place un algorithme dont les étapes sont figées mais dont la réalisation de ces dernières peut être déléguée à d’autres objets offrant des variations de traitement.
-####Visitor
+#### Visitor
 Le visiteur peut être vu comme l’opération complémentaire à l’itérateur. Le visiteur est une classe définissant une opération sur une autre classe.
 
-###PHP
+### PHP
 5.4 => trait
 
 
 
-##Algorithmique
-##Base de données
-##Conception logicielle
-##HTTP
+## Algorithmique
+## Base de données
+## Conception logicielle
+## HTTP
 https://fr.wikipedia.org/wiki/Liste_des_codes_HTTP
-##La POO avec PHP
-##SYMFONY
+
+## SYMFONY
 DEBUG: https://symfony.com/doc/current/components/debug.html
 ### command line
 https://symfony.com/doc/2.5/cookbook/console/usage.html
@@ -131,11 +131,11 @@ https://symfony.com/doc/current/reference/events.html
 ### Other
 https://symfony.com/doc/current/templating/hinclude.html
 
-##Securité
+## Securité
 https://symfony.com/doc/current/security/custom_provider.html
 https://symfony.com/doc/current/security/voters.html
 
-#Other
+# Other
 0xFF = 255
 
 # links
@@ -153,9 +153,6 @@ https://symfony.com/doc/current/security/voters.html
 - https://symfony.com/doc/current/reference/configuration/framework.html#logging
 - https://symfony.com/doc/current/security/security_checker.html
 - https://symfony.com/doc/current/contributing/code/bc.html
-
-https://fr.wikipedia.org/wiki/Liste_des_codes_HTTP
-
-https://github.com/jmolivas/symfony-certification-guide
-
-https://symfony.com/doc/current/quick_tour/the_architecture.html
+- https://fr.wikipedia.org/wiki/Liste_des_codes_HTTP
+- https://github.com/jmolivas/symfony-certification-guide
+- https://symfony.com/doc/current/quick_tour/the_architecture.html
