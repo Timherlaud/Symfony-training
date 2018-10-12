@@ -1,4 +1,4 @@
-# Symfony Training
+# Symfony Training (WIP)
 
 ## Conception
 
